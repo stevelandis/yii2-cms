@@ -15,7 +15,7 @@ class CmsSearch extends CmsModel
     /**
      * @var int the default page size
      */
-    public $pageSize = 10;
+    public $pageSize = 100;
 
     /**
      * @inheritdoc
