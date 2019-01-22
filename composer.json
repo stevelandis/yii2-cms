@@ -42,5 +42,12 @@
     },
     "extra": {
         "bootstrap": "yii2mod\\cms\\Bootstrap"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stevelandis/yii2-cms.git"
+        }
+    ]
+    
 }
