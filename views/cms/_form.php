@@ -22,7 +22,8 @@ use yii2mod\markdown\MarkdownEditor;
                     'editorOptions' => Yii::$app->getModule('cms')->markdownEditorOptions,
                 ]); ?>
             <?php else: ?>
-                <?php echo $form->field($model, 'content')->widget(Widget::class, Yii::$app->getModule('cms')->froalaEditorOptions); ?>
+                <?php //echo $form->field($model, 'content')->widget(Widget::class, Yii::$app->getModule('cms')->froalaEditorOptions); ?>
+                <?php echo $form->field($model, 'content')->textarea(['rows' => 12]);  ?>
             <?php endif; ?>
 
             <?php echo $form->field($model, 'url', [
